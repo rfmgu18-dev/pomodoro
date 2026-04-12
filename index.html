@@ -7,14 +7,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <title>Pomodoro Timer</title>
+  
 </head>
 <body>
   <div class="recuadro">
     <h1>POMODORO TIMER</h1>
   </div>
-<div>
-  <video src="multimedia/pomodoro-technique.mp4" autoplay muted loop></video>
+<div class="tomate-container">
+  <video class="tomate" src="multimedia/pomodoro-girando.webm" autoplay muted loop></video>
 </div>
 
+<div class="timer">
+  <div id="display">25:00</div>
+  <div class="controls">
+    <button id="startBtn">Iniciar</button>
+    <button id="pauseBtn">Pausar</button>
+    <button id="resetBtn">Reiniciar</button>
+  </div>
+</div>
 </body>
+<script src="scripts.js"></script>
 </html>
