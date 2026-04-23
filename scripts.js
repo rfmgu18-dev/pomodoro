@@ -54,7 +54,7 @@ function cambiarTimer() {
   modoIndex = modoIndex === 0 ? 1 : 0;
   tiempoActual = tiempos[modoIndex];
 
-  alert("Haz cambiado al modo de " + modos[modoIndex] + " exitosamente!");
+  alert("Se ha cambiado al modo de " + modos[modoIndex] + " exitosamente!");
 
   actuDisplay();
   iniciarTimer();
